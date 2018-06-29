@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <title>Shopping list</title>
+</head>
+<body>
+    <div class="headerwindow row" >
+        <div class="col s9">
+
+        </div>
+       <div class="col s3">
+           <div class="col s1 offset-s1" >
+                <a class="waves-effect waves-light cstbtn">&strns;</a>
+            </div>
+           <div class="col s1 offset-s2" >
+                <a class="waves-effect waves-light cstbtn">&lowbar;</a>
+           </div>
+           <div class="col s1 offset-s2" >
+                <a class="waves-effect waves-light cstbtn" onclick="closeWin()">X</a>
+           </div>
+       </div>
+    </div>
+    <div class="row cstheight" id="rowcontent">
+        <div class="col s12">
+            <button class="btnshow">show</button> <button class="btnhide">show</button>
+            <div class="mycontent">
+                <div class="row">
+                        <div class="col s12">
+                                <div class="input-field col s6">
+                                        <input id="item_name" type="text" class="validate">
+                                        <label for="item_name">Item Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                        <input id="item_price" type="number" class="validate">
+                                        <label for="item_price">Item Price</label>
+                                </div>
+                                <button class="btn waves-effect waves-light" id="insertItem">Insert
+                                        <i class="material-icons right">send</i>
+                                </button>
+                        </div>
+                </div>
+                    <div class="col s12">
+                        <table>
+                            <thead>
+                              <tr>
+                                  <th>Name</th>
+                                  <th>price</th>
+                              </tr>
+                            </thead>
+                            <tbody id="userlist">
+                              
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+            
+        </div>
+        
+    </div>
+    <div class="row" id="rowfooter">
+        <div class="col s1 offset-s10">
+                <a class="btn-floating btn-large waves-effect waves-light red" ><i class="material-icons">add</i></a>  
+        </div>
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+</body>
+</html>

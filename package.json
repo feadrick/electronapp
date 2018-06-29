@@ -1,0 +1,17 @@
+{
+  "name": "electronapp",
+  "version": "1.0.0",
+  "description": "web data extraction desktop application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "feadrick masdin",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.2",
+    "firebase": "^5.1.0",
+    "grpc": "^1.12.4",
+    "jquery": "^3.3.1"
+  }
+}

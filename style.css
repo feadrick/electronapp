@@ -1,0 +1,52 @@
+.cstbtn {
+    background: #0b2333;
+    background-image: -webkit-linear-gradient(top, #0b2333, #61c2ff);
+    background-image: -moz-linear-gradient(top, #0b2333, #61c2ff);
+    background-image: -ms-linear-gradient(top, #0b2333, #61c2ff);
+    background-image: -o-linear-gradient(top, #0b2333, #61c2ff);
+    background-image: linear-gradient(to bottom, #0b2333, #61c2ff);
+    -webkit-border-radius: 39;
+    -moz-border-radius: 39;
+    border-radius: 39px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 7px 13px 7px 12px;
+    text-decoration: none;
+  }
+  
+  .cstbtn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+.cstheight{
+    height:550px;
+}
+
+.headerwindow{
+    background-color:#232323;
+}
+
+#cls:hover{
+    background-color:orangered;
+    color:black;
+}
+
+#clm:hover{
+    background-color:orangered;
+    color:black;
+}
+
+#cld:hover{
+    background-color:orangered;
+    color:black;
+}
+
+input{
+    color: black;
+}
